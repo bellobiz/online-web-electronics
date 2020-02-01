@@ -211,6 +211,11 @@ p {
     margin-inline-end: 0px;
 }
 
+h4 {
+  text-align: left !important;
+  margin-top: 80px;
+}
+
 .card-title {
  margin-bottom: 0.75em
 }
