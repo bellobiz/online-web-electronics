@@ -125,10 +125,11 @@ input:hover {
   height: 150px;
   max-width: 100%;
   text-align: center;
-  padding: 20px;
+  padding: 25px;
 }
 .w-25 {
   max-width: 33.3%;
+  height: auto;
   display: inline-block;
   font-family: sans-serif;
   color: white;
