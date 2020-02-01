@@ -18,13 +18,10 @@ header {
   /* position: fixed; */
 }
 
-/* nav {
-  position: fixed;
-  width: 100%;
-  background-color: #000;
-  text-align: center;
-  z-index: 2;
-} */
+nav {
+  background-color: rgba(0,0,0,0.3);
+  padding: 40px;
+}
 
 h5 {
   position: relative;
