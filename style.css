@@ -13,6 +13,21 @@ header {
   background-size: cover; */
   background-color: #000;
   text-align: center;
+  z-index: 1;
+  /* position: fixed; */
+}
+
+/* nav {
+  position: fixed;
+  width: 100%;
+  background-color: #000;
+  text-align: center;
+  z-index: 2;
+} */
+
+h5 {
+  position: relative;
+  z-index: -2;
 }
 
 img {
@@ -107,16 +122,18 @@ input:hover {
 .mb {
   background: linear-gradient(90deg,#ff8a00,#e52e71);
   height: 150px;
-  margin: auto;
+  max-width: 100%;
+  text-align: center
 }
 
 .w-25 {
-  width: 30%;
+  width: 33.3%;
   display: inline-block;
   padding: 25px 0 0 16px;
   font-family: sans-serif;
   color: white;
   text-align: center;
+  margin: auto;
 }
 
 .w-25 > h3 {
