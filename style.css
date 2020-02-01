@@ -124,11 +124,12 @@ input:hover {
   background: linear-gradient(90deg,#ff8a00,#e52e71);
   height: 150px;
   max-width: 100%;
-  text-align: center
+  text-align: center;
+  padding-top: 10px;
 }
 
 .w-25 {
-  width: 33.3%;
+  max-width: 33.3%;
   display: inline-block;
   font-family: sans-serif;
   color: white;
