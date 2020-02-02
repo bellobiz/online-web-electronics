@@ -116,54 +116,10 @@ input:hover {
   width: 75%;
 }
 
-.mb {
+.row {
   background: linear-gradient(90deg,#ff8a00,#e52e71);
-  height: 150px;
-  max-width: 100%;
   text-align: center;
-  padding: 25px;
-}
-.w-25 {
-  max-width: 33.3%;
-  height: auto;
-  display: inline-block;
-  font-family: sans-serif;
   color: white;
-  margin: auto;
-}
-
-.w-25 > h3 {
-  font-size: 17px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.w-25 > span h3 {
-  font-size: 15px;
-  font-family: 'Open Sans', sans-serif;
-  width: 80%;
-  display: inline-block;
-}
-
-@media (max-width: 717px) {
-  .mb {
-    display: none;
-  }
-}
-
-.w-20 {
-  width: 20%;
-  background-color: #f1f1f1;
-  box-shadow: 4px 5px 5px #eee;
-  margin: 20px 10px;
-  padding: 20px;
-  font-family: 'Open Sans', sans-serif;
-  display: inline-block;
-}
-
-@media (max-width: 598px) {
-  .w-20 {
-    display: none;
-  }
 }
 
 .w-100 {
