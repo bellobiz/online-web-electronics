@@ -74,17 +74,17 @@ li {
   width: 100%;
 }
 
-li:hover {
+.nav :hover {
   border-bottom: 2px solid #ff8a00;
 }
 
-li a {
+.nav a {
   color: #ddd;
   text-decoration: none;
   text-align: center;
 }
 
-li a:hover {
+.nav a:hover {
   color: #fff !important;
   text-decoration: none;
 }
@@ -122,6 +122,22 @@ input:hover {
   color: white;
 }
 
+.w-20 {
+  width: 20%;
+  background-color: #f1f1f1;
+  box-shadow: 4px 5px 5px #eee;
+  margin: 20px 10px;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+}
+
+@media (max-width: 598px) {
+  .w-20 {
+    display: none;
+  }
+}
+
 .w-100 {
   width: 100%;
 }
@@ -130,9 +146,9 @@ input:hover {
   max-width: 95%;
 }
 
-@media (max-width: 417px) {
+@media (max-width: 467px) {
   .w-100 {
-    display: none;
+    max-width: 10;
   }
 }
 
@@ -222,4 +238,19 @@ h4 {
 
 .card:hover {
   box-shadow: 16px 16px 15px #f1f1f1;
+}
+
+footer{
+  display: grid;
+  height: 200px;
+  width: 100%;
+}
+
+#item1 {
+  color: white;
+  
+}
+
+#item1:hover {
+  border: none
 }
