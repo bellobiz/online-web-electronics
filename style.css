@@ -243,14 +243,9 @@ h4 {
 footer{
   display: grid;
   height: 200px;
-  width: 100%;
 }
 
 #item1 {
   color: white;
   
-}
-
-#item1:hover {
-  border: none
 }
