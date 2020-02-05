@@ -241,6 +241,6 @@ h4 {
   }
 }
 
-.card:hover {
-  box-shadow: 16px 16px 15px #a74e4e;
+div.card:hover {
+  box-shadow: 8px 13px 10px #eee;
 }
